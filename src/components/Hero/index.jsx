@@ -1,9 +1,9 @@
 import { Container } from "./styles";
 
-export function Praias(){
+export function Hero(){
     return(
         <Container>
-            <h1>Praias</h1>
+            
         </Container>
     )
 }

@@ -27,7 +27,7 @@ export const MenuItems = [
     },
     {
         title : "Reservas",
-        url : "/contato",
+        url : "/reservas",
         cName : "nav-links"
     },
 ]

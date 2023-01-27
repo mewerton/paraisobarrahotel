@@ -4,13 +4,15 @@ import { Details } from './Pages/Details'
 import { ThemeProvider } from 'styled-components'
 import GlobalStyles from "./styles/global"
 
+import { BrowserRouter } from "react-router-dom"
+
 import theme from "./styles/theme"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <BrowserRouter>
     <ThemeProvider theme={theme}>
       <GlobalStyles/>
       <Details />
     </ThemeProvider>
-  </React.StrictMode>,
+  </BrowserRouter>,
 )
