@@ -9,8 +9,6 @@ export default createGlobalStyle`
     font-family: "ErasMedium","Sans Serif";
     font-weight: normal;
     font-size: 20px;
-
-   
 }
 
 body{
@@ -24,6 +22,12 @@ body, input, button, textarea{
 
 a{
     text-decoration: none;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-family: "ErasBold";
+    color: ${({theme}) => theme.COLORS.BLACK};
 }
 
 button, a{
