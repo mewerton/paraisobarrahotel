@@ -1,9 +1,9 @@
 import { Container } from "./styles";
 
-export function Home(){
+export function Pousada(){
     return(
         <Container>
-
+            
         </Container>
     )
 }

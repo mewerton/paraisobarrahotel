@@ -1,9 +1,9 @@
 import { Container } from "./styles";
 
-export function Home(){
+export function Localizacao(){
     return(
         <Container>
-
+            
         </Container>
     )
 }
