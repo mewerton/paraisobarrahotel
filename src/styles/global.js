@@ -6,11 +6,15 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
 
+    font-family: "ErasMedium","Sans Serif";
+    font-weight: normal;
+    font-size: 20px;
+
    
 }
 
 body{
-    background-color: ${({theme}) => theme.COLORS.ORANGE};
+    background-color: ${({theme}) => theme.COLORS.WHITE};
     color: ${({theme}) => theme.COLORS.BLACK};
 }
 
