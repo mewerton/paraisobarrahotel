@@ -1,4 +1,4 @@
-import { Link, Route } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Container } from "./styles";
 
 export function Hero({cName, heroImg, title, text, url, urlb, btnClass, btnClassb, buttonText, buttonTextb}){
@@ -10,16 +10,23 @@ export function Hero({cName, heroImg, title, text, url, urlb, btnClass, btnClass
             <div className="hero-text">
                 <h1>{title}</h1>
                 <p>{text}</p>
-                <a href={url} className={btnClass}>
+                <button>
+                <NavLink to={url}>
+                    {buttonText}
+                </NavLink >
+                </button>
+                <button >
+                <NavLink to={urlb}>
+                    {buttonTextb}
+                </NavLink>
+                </button>
+
+                {/* <a href={url} className={btnClass}>
                     {buttonText}
                 </a>
                 <a href={urlb} className={btnClassb}>
                     {buttonTextb}
-                </a>
-               
-                
-                
-                
+                </a> */}
                 
             </div>
         </Container>

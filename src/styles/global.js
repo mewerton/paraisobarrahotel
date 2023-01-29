@@ -29,6 +29,9 @@ h1{
     font-family: "ErasBold";
     color: ${({theme}) => theme.COLORS.BLACK};
 }
+.btnPage{
+    padding: 2rem;
+}
 
 button, a{
 cursor: pointer;

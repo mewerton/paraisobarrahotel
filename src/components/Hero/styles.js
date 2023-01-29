@@ -41,7 +41,7 @@ img{
      margin-bottom: 2rem;
      }
 
- .hero-text .show{
+ .hero-text .show {
      text-decoration: none;
      background: ${({theme}) => theme.COLORS.WHITE};
      padding: 1rem 2rem;
@@ -54,6 +54,25 @@ img{
         
  }
 
+ 
+ button{
+     text-decoration: none;
+     background: transparent;
+     border:none;
+
+    >a{
+        
+     text-decoration: none;
+     background: ${({theme}) => theme.COLORS.WHITE};
+     padding: 1rem 2rem;
+     border-radius: 6px;
+     font-size: 1.1rem;
+     font-weight: bold;
+     letter-spacing: 2px;
+     margin-left: 1rem;
+     color: ${({theme}) => theme.COLORS.BLACK};
+ }
+ }
 
 `
 
