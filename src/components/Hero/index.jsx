@@ -10,16 +10,13 @@ export function Hero({cName, heroImg, title, text, url, urlb, btnClass, btnClass
             <div className="hero-text">
                 <h1>{title}</h1>
                 <p>{text}</p>
-                <button>
-                <NavLink to={url}>
+                <NavLink className={btnClass} to={url}>
                     {buttonText}
                 </NavLink >
-                </button>
-                <button >
-                <NavLink to={urlb}>
+                <NavLink  className={btnClass} to={urlb}>
                     {buttonTextb}
                 </NavLink>
-                </button>
+                
 
                 {/* <a href={url} className={btnClass}>
                     {buttonText}

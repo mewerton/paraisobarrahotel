@@ -129,6 +129,14 @@ export const Container = styled.div`
         font-size: 1.2rem;
         color: ${({theme}) => theme.COLORS.BLACK};
     }
+
+    @media screen and (max-width: 555px){
+        .navbar-logo{
+        font-size: 1rem;
+       
+    
+}
+    }
     
 }
 `
