@@ -1,8 +1,9 @@
 import { Container } from "./styles";
 import { Hero } from "../../components/Hero";
 import Navbar from "../../components/Navbar";
-import PraiaImg from "../../assets/night.jpg"
+import HotelImg from "../../assets/1.jpg"
 import { Footer } from "../../components/Footer";
+import { TripData } from "../../components/TripData";
 
 export function Hotel(){
     return(
@@ -11,12 +12,13 @@ export function Hotel(){
             <Hero 
                 cName={"hero-mid"}
                 title={"Hotel"}
-                heroImg={PraiaImg}
+                heroImg={HotelImg}
                 url="#"
                 btnClass={"hide"}
                 urlb="#"
                 
-            />     
+            />    
+            
             <Footer/>      
         </Container>
     )

@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import { TripData } from "../TripDada";
+import { TripData } from "../TripData";
 import Tripimg1 from "../../assets/1c.jpg"
 import Tripimg2 from "../../assets/20 (12).jpg"
 import Tripimg3 from "../../assets/20 (13).jpg"
