@@ -17,7 +17,7 @@ body{
 }
 
 body, input, button, textarea{
-    font-family:'Font Awesome', serif ;
+    font-family:"ErasMedium","Sans Serif";
 }
 
 a{

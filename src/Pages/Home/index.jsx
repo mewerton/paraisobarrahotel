@@ -24,7 +24,7 @@ export function Home(){
                 
             />
             <General/>
-            <Trip/>
+            
             <Footer/>
         </Container>
     )
