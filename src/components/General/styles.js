@@ -10,20 +10,30 @@ export const Container = styled.div`
     font-size: 3rem;
 }
 
-.hotel{
+.first-general{
     display: flex;
     align-items: center;
     justify-content:space-between;
     margin-top: 4.5rem;
 }
 
-.hotel-text {
+.first-general-reverse{
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 4.5rem;
+
+}
+
+.general-text {
     width: 45%;
     text-align: start;
     font-size: 1.1rem;
 }
 
-.hotel-text h2{
+.general-text h2{
     padding-bottom: 1rem;
     font-size: 2rem;
     font-weight: bold;
@@ -55,14 +65,21 @@ export const Container = styled.div`
         margin: 4rem 2rem;
     }
 
-    .hotel{
+    .first-general{
     display: flex;
     flex-direction: column-reverse;
  
     margin-top: 2.5rem;
     }
 
-    .hotel-text{
+    .first-general-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+ 
+    margin-top: 4.5rem;
+    }
+
+    .general-text{
         width: 100%;
     }
     .image{
@@ -74,6 +91,16 @@ export const Container = styled.div`
         height: 250px;
     }
     
+}
+
+@media screen and (max-width: 555px){
+
+.general h1{
+    padding: 10px 20px;
+    font-size: 2.1rem;
+}
+
+
 }
 
 
