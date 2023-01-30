@@ -28,7 +28,12 @@ h1{
     font-size: 1.5rem;
     font-family: "ErasBold";
     color: ${({theme}) => theme.COLORS.BLACK};
+    text-align: center;
 }
+p{
+    text-align: center;
+}
+
 .btnPage{
     padding: 2rem;
 }

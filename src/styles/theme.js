@@ -1,6 +1,7 @@
 export default {
     COLORS: {
-        
+    
+    BACKGROUND_080: "rgba(0,0,0, 0.19)",
     BACKGROUND_100: "rgba(0,0,0, 0.25)",
 
     WHITE: "#FFF",

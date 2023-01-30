@@ -2,6 +2,7 @@ import { Hero } from "../../components/Hero";
 import Navbar from "../../components/Navbar";
 import { Container } from "./styles";
 import IMG from "../../assets/img.jpg"
+import { General } from "../../components/General";
 
 
 export function Home(){
@@ -20,6 +21,7 @@ export function Home(){
                 urlb="/pousada"
                 
             />
+            <General/>
         </Container>
     )
 }
