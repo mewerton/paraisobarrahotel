@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar";
 import { Container } from "./styles";
 import IMG from "../../assets/img.jpg"
 import { General } from "../../components/General";
+import { Trip } from "../../components/Trip";
 
 
 export function Home(){
@@ -22,6 +23,7 @@ export function Home(){
                 
             />
             <General/>
+            <Trip/>
         </Container>
     )
 }

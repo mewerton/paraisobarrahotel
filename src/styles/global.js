@@ -34,6 +34,11 @@ p{
     text-align: center;
 }
 
+img{
+    object-fit: cover;
+}
+
+
 .btnPage{
     padding: 2rem;
 }
