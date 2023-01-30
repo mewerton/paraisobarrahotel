@@ -9,7 +9,6 @@ export const Container = styled.div`
     height: 100vh;
     position: relative;
 
-    
 }
 
 img{
@@ -19,15 +18,16 @@ img{
 
     }
 
-
-/* .hero-mid{
+ .hero-mid{
     width: 100%;
     height: 70vh;
     position: relative;
-    
-    
-} */
+       
+}
 
+.hero-mid h1{
+    padding-top: 4rem !important;
+}
 
 
 .hero-text{
@@ -74,27 +74,6 @@ img{
  .hero-text .hide{
     display: none;
  }
-
-/*  
- button{
-     text-decoration: none;
-     background: transparent;
-     border:none;
-
-    >a{
-        
-     text-decoration: none;
-     background: ${({theme}) => theme.COLORS.WHITE};
-     padding: 1rem 2rem;
-     border-radius: 6px;
-     font-size: 1.1rem;
-     font-weight: bold;
-     letter-spacing: 2px;
-     margin-left: 1rem;
-     margin-right: 1rem;
-     gap: 1rem;
-     color: ${({theme}) => theme.COLORS.BLACK};
- }  */
  
 
 @media screen and (max-width: 555px){
@@ -117,32 +96,9 @@ img{
      
 
     }
-    /* button{
-        margin-bottom: 2rem;
-        top: -55%;
-        
-    } */
-
+  
 }
 
-@media screen and (max-width: 400px){
-    /* button{
-        >a{
-            margin-left: 0.5rem;
-            margin-right: 0.5rem;
-        }
-    } */
-}
-
-@media screen and (max-width: 360px){
-
-    /* button{
-        margin-bottom: 2rem;
-        
-       
-    } */
-
-}
 
 
 

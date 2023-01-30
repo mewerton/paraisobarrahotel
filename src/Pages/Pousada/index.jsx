@@ -1,9 +1,21 @@
 import { Container } from "./styles";
+import { Hero } from "../../components/Hero";
+import Navbar from "../../components/Navbar";
+import PraiaImg from "../../assets/night.jpg"
 
 export function Pousada(){
     return(
         <Container>
-            <h1>Pousada</h1>
+            <Navbar/>
+            <Hero 
+                cName={"hero-mid"}
+                title={"Pousada"}
+                heroImg={PraiaImg}
+                url="#"
+                btnClass={"hide"}
+                urlb="#"
+                
+            />           
         </Container>
     )
 }

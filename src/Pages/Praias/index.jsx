@@ -1,7 +1,7 @@
 import Navbar from "../../components/Navbar";
 import { Container } from "./styles";
 import { Hero } from "../../components/Hero";
-import Praia from "../../assets/night.jpg"
+import PraiaImg from "../../assets/night.jpg"
 
 export function Praias(){
     return(
@@ -9,8 +9,8 @@ export function Praias(){
             <Navbar/>
             <Hero 
                 cName={"hero-mid"}
-                title={"As melhores praias do Nordeste"}
-                heroImg={Praia}
+                title={"Praias"}
+                heroImg={PraiaImg}
                 url="#"
                 btnClass={"hide"}
                 urlb="#"
