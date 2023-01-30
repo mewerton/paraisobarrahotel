@@ -5,27 +5,27 @@ import Tripimg2 from "../../assets/20 (12).jpg"
 import Tripimg3 from "../../assets/20 (13).jpg"
 
 
-export function Trip(){
+export function Trip({title, text, imgcard1, imgcard2, imgcard3, titlecard1, titlecard2, titlecard3, textcard1, textcard2, textcard3 }){
     return(
         <Container>
             <div className="trip">
-                <h1>Praias paradisíacas</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus harum veritatis incidunt! Enim, molestiae iure vero quod temporibus reiciendis harum cumque doloribus officiis recusandae quis vitae, dolores sed qui sequi.</p>
+                <h1>{title}</h1>
+                <p>{text}</p>
                 <div className="tripcard">
                     <TripData
-                    image={Tripimg1}
-                    heading={"Primeiro Card"}
-                    text={"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus harum veritatis incidunt! Enim, molestiae iure vero quod temporibus reiciendis harum cumque doloribus officiis recusandae quis vitae, dolores sed qui sequi."}
+                    image={imgcard1}
+                    heading={titlecard1}
+                    text={textcard1}
                     />
                     <TripData
-                    image={Tripimg2}
-                    heading={"Primeiro Card"}
-                    text={"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus harum veritatis incidunt! Enim, molestiae iure vero quod temporibus reiciendis harum cumque doloribus officiis recusandae quis vitae, dolores sed qui sequi."}
+                    image={imgcard2}
+                    heading={titlecard2}
+                    text={textcard2}
                     />
                     <TripData
-                    image={Tripimg3}
-                    heading={"Primeiro Card"}
-                    text={"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus harum veritatis incidunt! Enim, molestiae iure vero quod temporibus reiciendis harum cumque doloribus officiis recusandae quis vitae, dolores sed qui sequi."}
+                    image={imgcard3}
+                    heading={titlecard3}
+                    text={textcard3}
                     />
                     
                 </div>
