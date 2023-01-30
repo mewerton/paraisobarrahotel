@@ -2,6 +2,7 @@ import Navbar from "../../components/Navbar";
 import { Container } from "./styles";
 import { Hero } from "../../components/Hero";
 import PraiaImg from "../../assets/night.jpg"
+import { Footer } from "../../components/Footer";
 
 export function Praias(){
     return(
@@ -16,6 +17,7 @@ export function Praias(){
                 urlb="#"
                 
             />
+            <Footer/>
         </Container>
     )
 }
