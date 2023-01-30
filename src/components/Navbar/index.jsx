@@ -17,7 +17,7 @@ class Navbar extends Component{
         return(
             <Container>
                 <nav className="NavbarItems">
-                    <h1 className="navbar-logo">Paraíso Barra Hotel</h1>
+                    <h1 className="navbar-logo">Paraíso da Barra</h1>
                     <div className="menu-icons" onClick={this.handleClick}>
                         <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>            
                     </div>
