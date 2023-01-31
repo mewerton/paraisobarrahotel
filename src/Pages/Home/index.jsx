@@ -29,7 +29,7 @@ export function Home(){
             <General/>
             <Trip 
                 title={"Temos muito a oferecer"}
-                text ={"Parabens! Você acabou de achar o seu lugar preferido!"}
+                text ={"Parabéns! Você acabou de achar o seu lugar preferido!"}
                 titlecard1 ={"Área de lazer"}
                 imgcard1 ={ImageCard1}
                 textcard1 ={"Beira mar você gosta? pois se prepare para conhecer nosso Point, uma área exclusiva para nossos hóspedes do Hotel e da Pousada. "}
