@@ -2,7 +2,8 @@ import { Container } from "./styles";
 import { Hero } from "../../components/Hero";
 import Navbar from "../../components/Navbar";
 import PraiaImg from "../../assets/20142.jpg"
-import { Footer } from "../../components/Footer";
+import { Footer } from "../../components/Footer"
+import { Gallery } from "../../components/Gallery";
 
 export function Galeria(){
     return(
@@ -17,6 +18,8 @@ export function Galeria(){
                 urlb="#"
                 
             />
+            <Gallery/>
+            
             <Footer/>           
         </Container>
     )

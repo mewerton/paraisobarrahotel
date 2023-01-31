@@ -40,7 +40,7 @@ export function Home(){
                  
                 titlecard3={"Passeios"}
                 imgcard3 ={ImageCard3}
-                textcard3={"Em nosso catamarã você poderá desfrutar de um adorável passeio até a famosa praia de carro quebrado, considerada uma das mais bonitas do Brasil."}
+                textcard3={"Em nosso catamarã você poderá desfrutar de um adorável passeio até a famosa praia de carro quebrado, uma das mais bonitas do Brasil."}
             />
             
             <Footer/>
