@@ -18,6 +18,25 @@ import ImgGallery16 from "../../assets/galleryImages/16.jpg"
 import ImgGallery17 from "../../assets/galleryImages/17.jpg"
 import ImgGallery18 from "../../assets/galleryImages/18.jpg"
 
+import ImgGallery1b from "../../assets/galleryImages/1b.jpg"
+import ImgGallery2b from "../../assets/galleryImages/2b.jpg"
+import ImgGallery3b from "../../assets/galleryImages/3b.jpg"
+import ImgGallery4b from "../../assets/galleryImages/4b.jpg"
+import ImgGallery5b from "../../assets/galleryImages/5b.jpg"
+import ImgGallery6b from "../../assets/galleryImages/6b.jpg"
+import ImgGallery7b from "../../assets/galleryImages/7b.jpg"
+import ImgGallery8b from "../../assets/galleryImages/8b.jpg"
+import ImgGallery9b from "../../assets/galleryImages/9b.jpg"
+import ImgGallery10b from "../../assets/galleryImages/10b.jpg"
+import ImgGallery11b from "../../assets/galleryImages/11b.jpg"
+import ImgGallery12b from "../../assets/galleryImages/12b.jpg"
+import ImgGallery13b from "../../assets/galleryImages/13b.jpg"
+import ImgGallery14b from "../../assets/galleryImages/14b.jpg"
+import ImgGallery15b from "../../assets/galleryImages/15b.jpg"
+import ImgGallery16b from "../../assets/galleryImages/16b.jpg"
+import ImgGallery17b from "../../assets/galleryImages/17b.jpg"
+import ImgGallery18b from "../../assets/galleryImages/18b.jpg"
+
 
 export function Gallery(){
     
@@ -30,109 +49,109 @@ export function Gallery(){
                 
                     <div class="image-wrapper">
                     <a href="#lightbox-image-1">
-                        <img src={ImgGallery1} alt="" />
+                        <img src={ImgGallery1b} alt="" />
                         <div class="image-title">Hotel</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-2">
-                        <img src={ImgGallery2} alt="" />
+                        <img src={ImgGallery2b} alt="" />
                         <div class="image-title">Hotel</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-3">
-                        <img src={ImgGallery3} alt="" />
+                        <img src={ImgGallery3b} alt="" />
                         <div class="image-title">Hotel</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-4">
-                        <img src={ImgGallery4} alt="" />
+                        <img src={ImgGallery4b} alt="" />
                         <div class="image-title">Pousada</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-5">
-                        <img src={ImgGallery5} alt="" />
+                        <img src={ImgGallery5b} alt="" />
                         <div class="image-title">Pousada</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-6">
-                        <img src={ImgGallery6} alt="" />
+                        <img src={ImgGallery6b} alt="" />
                         <div class="image-title">Foz do Rio Sto Antônio</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-7">
-                        <img src={ImgGallery7} alt="" />
+                        <img src={ImgGallery7b} alt="" />
                         <div class="image-title">Point</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-8">
-                        <img src={ImgGallery8} alt="" />
+                        <img src={ImgGallery8b} alt="" />
                         <div class="image-title">Point</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-9">
-                        <img src={ImgGallery9} alt="" />
+                        <img src={ImgGallery9b} alt="" />
                         <div class="image-title">Point</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-10">
-                        <img src={ImgGallery10} alt="" />
+                        <img src={ImgGallery10b} alt="" />
                         <div class="image-title">Point</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-11">
-                        <img src={ImgGallery11} alt="" />
+                        <img src={ImgGallery11b} alt="" />
                         <div class="image-title">Point</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-12">
-                        <img src={ImgGallery12} alt="" />
+                        <img src={ImgGallery12b} alt="" />
                         <div class="image-title">Praia de Carro Quebrado</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-13">
-                        <img src={ImgGallery13} alt="" />
+                        <img src={ImgGallery13b} alt="" />
                         <div class="image-title">Praia de Carro Quebrado</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-14">
-                        <img src={ImgGallery14} alt="" />
+                        <img src={ImgGallery14b} alt="" />
                         <div class="image-title">Praia de Carro Quebrado</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-15">
-                        <img src={ImgGallery15} alt="" />
+                        <img src={ImgGallery15b} alt="" />
                         <div class="image-title">Catamarã</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-16">
-                        <img src={ImgGallery16} alt="" />
+                        <img src={ImgGallery16b} alt="" />
                         <div class="image-title">Piscinas naturais</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-17">
-                        <img src={ImgGallery17} alt="" />
+                        <img src={ImgGallery17b} alt="" />
                         <div class="image-title">Catamarã</div>
                     </a>
                     </div>
                     <div class="image-wrapper">
                     <a href="#lightbox-image-18">
-                        <img src={ImgGallery18} alt="" />
+                        <img src={ImgGallery18b} alt="" />
                         <div class="image-title">Praia do Paraíso da Barra</div>
                     </a>
                     </div>
