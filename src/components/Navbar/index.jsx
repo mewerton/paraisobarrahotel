@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 import { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { MenuItems } from "../MenuItems"
 
 class Navbar extends Component{
@@ -15,7 +15,10 @@ class Navbar extends Component{
         return(
             <Container>
                 <nav className="NavbarItems">
-                    <h1 className="navbar-logo">Paraíso da Barra</h1>
+                    <h1>
+                        <NavLink to="/" className="navbar-logo">
+                        Paraíso da Barra
+                        </NavLink></h1>
                     <div className="menu-icons" onClick={this.handleClick}>
                         <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>            
                     </div>

@@ -1,7 +1,7 @@
 import { Hero } from "../../components/Hero";
 import Navbar from "../../components/Navbar";
 import { Container } from "./styles";
-import Image from "../../assets/2012.jpg"
+import Image from "../../assets/216.jpg"
 import { General } from "../../components/General";
 import { Trip } from "../../components/Trip";
 import { Footer } from "../../components/Footer";
