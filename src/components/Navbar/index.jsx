@@ -2,8 +2,6 @@ import { Container } from "./styles";
 import { Component } from "react";
 import { Link } from "react-router-dom";
 import { MenuItems } from "../MenuItems"
-import {FiMenu} from "react-icons/fi"
-import {GrClose} from "react-icons/gr"
 
 class Navbar extends Component{
 

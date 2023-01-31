@@ -4,6 +4,7 @@ export default {
     BACKGROUND_010: "rgba(0,0,0, 0.1)",
     BACKGROUND_080: "rgba(0,0,0, 0.19)",
     BACKGROUND_100: "rgba(0,0,0, 0.25)",
+    BACKGROUND_200: "rgba(0,0,0, 0.35)",
     BACKGROUND_1000: "black",
 
     WHITE: "#FFF",

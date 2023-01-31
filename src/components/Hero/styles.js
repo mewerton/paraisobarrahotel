@@ -36,7 +36,10 @@ img{
      left: 50%;
      transform: translate(-50%, -50%);
      width: 100%;
+     height: 30%;
      text-align: center;
+     background: ${({theme}) => theme.COLORS.BACKGROUND_200};
+     
 
 }
 
@@ -44,6 +47,7 @@ img{
      font-size: 3rem;
      font-weight: 800;
      background: ${({theme}) => theme.COLORS.WHITE};
+     
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
  
@@ -57,6 +61,7 @@ img{
  
  }
 
+
  .hero-text .show {
      text-decoration: none;
      background: ${({theme}) => theme.COLORS.WHITE};
@@ -68,8 +73,14 @@ img{
      margin-left: 0.5rem;
      margin-right: 0.5rem;
      color: ${({theme}) => theme.COLORS.BLACK};
-        
+     
+
  } 
+ .hero-text .show:hover{
+    background: ${({theme}) => theme.COLORS.BLUE_300};
+    transition: 0.2s ease-in-out;
+    color: ${({theme}) => theme.COLORS.WHITE};
+ }
 
  .hero-text .hide{
     display: none;

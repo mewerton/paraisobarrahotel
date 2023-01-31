@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { Container } from "./styles";
 
-export function Hero({cName, heroImg, title, text, url, urlb, btnClass, btnClassb, buttonText, buttonTextb}){
+export function Hero({cName, heroImg, title, text, url, urlb, btnClass, buttonText, buttonTextb}){
     return(
         <Container>
             <div className={cName}>
