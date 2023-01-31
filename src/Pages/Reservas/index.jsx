@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 import { Hero } from "../../components/Hero";
 import Navbar from "../../components/Navbar";
-import PraiaImg from "../../assets/night.jpg"
+import PraiaImg from "../../assets/208.jpg"
 import { Footer } from "../../components/Footer";
 import { ContactForm } from "../../components/ContactForm";
 
