@@ -27,9 +27,9 @@ export const Container = styled.div`
         text-align: start;
         box-shadow: 0 5px 25px 2px ${({theme}) => theme.COLORS.BACKGROUND_010};
         border-radius: 7px;
-        cursor: pointer;
+        
         padding: 1rem .8rem;
-
+        
     }
 
     .t-image{
