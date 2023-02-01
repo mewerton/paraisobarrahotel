@@ -1,7 +1,7 @@
 import { Hero } from "../../components/Hero";
 import Navbar from "../../components/Navbar";
 import { Container } from "./styles";
-import Image from "../../assets/216.jpg"
+import Image from "../../assets/capa2.jpg"
 import ImageCard1 from "../../assets/211.jpg"
 import ImageCard2 from "../../assets/20912.jpg"
 import ImageCard3 from "../../assets/246632.jpg"

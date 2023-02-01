@@ -2,8 +2,6 @@ import { Component } from "react";
 import { render } from "react-dom";
 import { Container } from "../General/styles";
 
-import pousadaImg1 from "../../assets/3.jpg"
-import pousadaImg2 from "../../assets/4.jpg"
 
 export class GeneralData extends Component{
     render(){

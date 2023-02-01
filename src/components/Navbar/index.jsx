@@ -17,7 +17,7 @@ class Navbar extends Component{
                 <nav className="NavbarItems">
                     <h1>
                         <NavLink to="/" className="navbar-logo">
-                        Paraíso da Barra
+                        Paraíso Barra Hotel
                         </NavLink></h1>
                     <div className="menu-icons" onClick={this.handleClick}>
                         <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>            
