@@ -22,11 +22,11 @@ export function Attributes(){
                     <li><GiSnowflake1/> Ar Condicionado</li>
                     <li><MdPets/> Animais de estimação</li>
                     <li><GiBarbecue/> Churrasqueira</li>
-                    <li><RiShip2Line/> Passeios</li>
+                    <li><RiShip2Line/> Passeios (Consultar valor)</li>
                     <li><MdOutlineBalcony/> Varanda/Área externa</li>
                     <li><BiFridge/> Frigobar</li>
                     <li><GiGunshot/> Secador de cabelo</li>
-                    <li><RiSafe2Line/> Cofre privado</li>
+                    <li><RiSafe2Line/> Cofre central</li>
                     
                 </ul>
             </div>
