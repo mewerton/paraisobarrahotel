@@ -134,7 +134,7 @@ export function Gallery(){
                     <div className="image-wrapper">
                     <a href="#lightbox-image-15">
                         <img src={ImgGallery15b} alt="" />
-                        <div className="image-title">Catamarã</div>
+                        <div className="image-title">Passeio de catamarã</div>
                     </a>
                     </div>
                     <div className="image-wrapper">
@@ -146,7 +146,7 @@ export function Gallery(){
                     <div className="image-wrapper">
                     <a href="#lightbox-image-17">
                         <img src={ImgGallery17b} alt="" />
-                        <div className="image-title">Catamarã</div>
+                        <div className="image-title">Passeio de catamarã</div>
                     </a>
                     </div>
                     <div className="image-wrapper">
