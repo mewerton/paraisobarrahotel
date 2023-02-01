@@ -4,7 +4,7 @@ import { MdOutlineGarage, MdPool, MdRestaurantMenu, MdWifi, MdBeachAccess, MdWor
 // import { IoSnowOutline } from "react-icons/io"
 import { GiBarbecue, GiGunshot, GiSnowflake1 } from "react-icons/gi"
 import { BiFridge } from "react-icons/bi"
-import { RiSafe2Line } from "react-icons/ri"
+import { RiSafe2Line, RiShip2Line} from "react-icons/ri"
 
 export function Attributes(){
     return(
@@ -22,7 +22,7 @@ export function Attributes(){
                     <li><GiSnowflake1/> Ar Condicionado</li>
                     <li><MdPets/> Animais de estimação</li>
                     <li><GiBarbecue/> Churrasqueira</li>
-                    <li><MdOutlineTour/> Passeios</li>
+                    <li><RiShip2Line/> Passeios</li>
                     <li><MdOutlineBalcony/> Varanda/Área externa</li>
                     <li><BiFridge/> Frigobar</li>
                     <li><GiGunshot/> Secador de cabelo</li>
