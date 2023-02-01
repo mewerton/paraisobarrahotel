@@ -1,4 +1,7 @@
 import { Container } from "./styles";
+
+import { MdKeyboardArrowUp } from "react-icons/md"
+
 import ImgGallery1 from "../../assets/galleryImages/1.jpg"
 import ImgGallery2 from "../../assets/galleryImages/2.jpg"
 import ImgGallery3 from "../../assets/galleryImages/3.jpg"
@@ -36,7 +39,7 @@ import ImgGallery15b from "../../assets/galleryImages/15b.jpg"
 import ImgGallery16b from "../../assets/galleryImages/16b.jpg"
 import ImgGallery17b from "../../assets/galleryImages/17b.jpg"
 import ImgGallery18b from "../../assets/galleryImages/18b.jpg"
-
+import { BackButton } from "../BackButton";
 
 export function Gallery(){
     
@@ -322,6 +325,7 @@ export function Gallery(){
                         <div className="image-title">Praia do Paraíso da Barra</div>
                     </div>
                     </div>
+              
                     
                 </div>
             </div>

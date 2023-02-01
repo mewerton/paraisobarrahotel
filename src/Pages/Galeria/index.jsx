@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar";
 import PraiaImg from "../../assets/20142.jpg"
 import { Footer } from "../../components/Footer"
 import { Gallery } from "../../components/Gallery";
+import { BackButton } from "../../components/BackButton";
 
 export function Galeria(){
     return(
@@ -19,7 +20,7 @@ export function Galeria(){
                 
             />
             <Gallery/>
-            
+            <BackButton link={"#"}/>
             <Footer/>           
         </Container>
     )

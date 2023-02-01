@@ -8,6 +8,7 @@ import ImageCard3 from "../../assets/246632.jpg"
 import { General } from "../../components/General";
 import { Trip } from "../../components/Trip";
 import { Footer } from "../../components/Footer";
+import { BackButton } from "../../components/BackButton";
 
 
 export function Home(){
@@ -42,7 +43,7 @@ export function Home(){
                 imgcard3 ={ImageCard3}
                 textcard3={"Em nosso catamarã você poderá desfrutar de um adorável passeio até a famosa praia de carro quebrado, uma das mais bonitas do Brasil."}
             />
-            
+            <BackButton link={"#"}/>
             <Footer/>
         </Container>
     )

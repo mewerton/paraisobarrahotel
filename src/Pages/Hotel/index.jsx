@@ -31,6 +31,7 @@ import { General } from "../../components/General";
 import { GeneralData } from "../../components/GenaralData";
 import { GallerySection } from "../../components/GallerySection";
 import { Attributes } from "../../components/Attributes";
+import { BackButton } from "../../components/BackButton";
 
 export function Hotel(){
     return(
@@ -98,7 +99,7 @@ export function Hotel(){
                 imgcard1 ={Pool}
                 textcard1={"Pensando nas crianças foi que chegamos ao desenho da nossa piscina, com um lado inteiro de baixa profundidade."}
             />
-            
+            <BackButton link={"#"}/>
             <Footer/> 
         </Container>
     )

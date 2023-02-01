@@ -28,6 +28,7 @@ import { General } from "../../components/General";
 import { GeneralData } from "../../components/GenaralData";
 import { GallerySection } from "../../components/GallerySection";
 import { Attributes } from "../../components/Attributes";
+import { BackButton } from "../../components/BackButton";
 
 export function Pousada(){
     return(
@@ -95,7 +96,7 @@ export function Pousada(){
                 imgcard2 ={Point}
                 textcard2={"Temos uma churrasqueira disponível em nosso Point, dessa forma nossos hóspedes podem trazer seu churrasco de casa e curtir! "}
             />
-            
+            <BackButton link={"#"}/>
             <Footer/> 
         </Container>
     )
