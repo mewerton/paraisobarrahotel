@@ -175,5 +175,18 @@ h1{
     background: transparent;
 }
 
+@media screen and (max-width: 850px){
+  
+  .gallery-wrapper {
+  
+  padding: 0rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 1em;
+}
+
+}
+
+
 
 `
