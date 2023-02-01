@@ -3,10 +3,9 @@ import styled from "styled-components"
 export const Container = styled.div`
 
   margin: 1em 0 0 0;
-  font-family: sans-serif;
   font-size: 16px;
   line-height: 24px;
-  color: #333;
+
   margin-bottom: 5rem;
 
 
