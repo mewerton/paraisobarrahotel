@@ -30,6 +30,7 @@ import { Trip } from "../../components/Trip";
 import { General } from "../../components/General";
 import { GeneralData } from "../../components/GenaralData";
 import { GallerySection } from "../../components/GallerySection";
+import { Attributes } from "../../components/Attributes";
 
 export function Hotel(){
     return(
@@ -54,6 +55,7 @@ export function Hotel(){
                 img2={img2}
             />
             </div>
+            <Attributes/>
             <GallerySection
                 title={"Conheça todos os detalhes!"} 
                 ImgGallery1={Hotel3} 
