@@ -9,7 +9,7 @@ export function GallerySection({title, ImgGallery1, ImgGallery2, ImgGallery3, Im
         
         <Container>
             <div>
-                <h1>{title}</h1>
+                <section id="top"><h1>{title}</h1></section>
                 <div className="gallery-wrapper">
                 
                     <div className="image-wrapper">
@@ -90,7 +90,7 @@ export function GallerySection({title, ImgGallery1, ImgGallery2, ImgGallery3, Im
                     
                     <div className="image-lightbox" id="lightbox-image-1">
                     <div className="image-lightbox-wrapper">
-                        <a href="#" className="close"></a>
+                        <a href="#top" className="close"></a>
                         <a href="#lightbox-image-3" className="arrow-left"></a>
                         <a href="#lightbox-image-2" className="arrow-right"></a>
                         <img src={ImgGallery1} alt="" />
@@ -100,7 +100,7 @@ export function GallerySection({title, ImgGallery1, ImgGallery2, ImgGallery3, Im
                     
                     <div className="image-lightbox" id="lightbox-image-2">
                     <div className="image-lightbox-wrapper">
-                        <a href="#" className="close"></a>
+                        <a href="#top" className="close"></a>
                         <a href="#lightbox-image-1" className="arrow-left"></a>
                         <a href="#lightbox-image-3" className="arrow-right"></a>
                         <img src={ImgGallery2} alt="" />
@@ -110,7 +110,7 @@ export function GallerySection({title, ImgGallery1, ImgGallery2, ImgGallery3, Im
                     
                     <div className="image-lightbox" id="lightbox-image-3">
                     <div className="image-lightbox-wrapper">
-                        <a href="#" className="close"></a>
+                        <a href="#top" className="close"></a>
                         <a href="#lightbox-image-2" className="arrow-left"></a>
                         <a href="#lightbox-image-4" className="arrow-right"></a>
                         <img src={ImgGallery3} alt="" />
@@ -119,7 +119,7 @@ export function GallerySection({title, ImgGallery1, ImgGallery2, ImgGallery3, Im
                     </div>
                     <div className="image-lightbox" id="lightbox-image-4">
                     <div className="image-lightbox-wrapper">
-                        <a href="#" className="close"></a>
+                        <a href="#top" className="close"></a>
                         <a href="#lightbox-image-3" className="arrow-left"></a>
                         <a href="#lightbox-image-5" className="arrow-right"></a>
                         <img src={ImgGallery4} alt="" />
@@ -128,7 +128,7 @@ export function GallerySection({title, ImgGallery1, ImgGallery2, ImgGallery3, Im
                     </div>
                     <div className="image-lightbox" id="lightbox-image-5">
                     <div className="image-lightbox-wrapper">
-                        <a href="#" className="close"></a>
+                        <a href="#top" className="close"></a>
                         <a href="#lightbox-image-4" className="arrow-left"></a>
                         <a href="#lightbox-image-6" className="arrow-right"></a>
                         <img src={ImgGallery5} alt="" />
@@ -137,7 +137,7 @@ export function GallerySection({title, ImgGallery1, ImgGallery2, ImgGallery3, Im
                     </div>
                     <div className="image-lightbox" id="lightbox-image-6">
                     <div className="image-lightbox-wrapper">
-                        <a href="#" className="close"></a>
+                        <a href="#top" className="close"></a>
                         <a href="#lightbox-image-5" className="arrow-left"></a>
                         <a href="#lightbox-image-7" className="arrow-right"></a>
                         <img src={ImgGallery6} alt="" />
@@ -146,7 +146,7 @@ export function GallerySection({title, ImgGallery1, ImgGallery2, ImgGallery3, Im
                     </div>
                     <div className="image-lightbox" id="lightbox-image-7">
                     <div className="image-lightbox-wrapper">
-                        <a href="#" className="close"></a>
+                        <a href="#top" className="close"></a>
                         <a href="#lightbox-image-6" className="arrow-left"></a>
                         <a href="#lightbox-image-8" className="arrow-right"></a>
                         <img src={ImgGallery7} alt="" />
@@ -155,7 +155,7 @@ export function GallerySection({title, ImgGallery1, ImgGallery2, ImgGallery3, Im
                     </div>
                     <div className="image-lightbox" id="lightbox-image-8">
                     <div className="image-lightbox-wrapper">
-                        <a href="#" className="close"></a>
+                        <a href="#top" className="close"></a>
                         <a href="#lightbox-image-7" className="arrow-left"></a>
                         <a href="#lightbox-image-9" className="arrow-right"></a>
                         <img src={ImgGallery8} alt="" />
@@ -164,7 +164,7 @@ export function GallerySection({title, ImgGallery1, ImgGallery2, ImgGallery3, Im
                     </div>
                     <div className="image-lightbox" id="lightbox-image-9">
                     <div className="image-lightbox-wrapper">
-                        <a href="#" className="close"></a>
+                        <a href="#top" className="close"></a>
                         <a href="#lightbox-image-8" className="arrow-left"></a>
                         <a href="#lightbox-image-10" className="arrow-right"></a>
                         <img src={ImgGallery9} alt="" />
@@ -173,7 +173,7 @@ export function GallerySection({title, ImgGallery1, ImgGallery2, ImgGallery3, Im
                     </div>
                     <div className="image-lightbox" id="lightbox-image-10">
                     <div className="image-lightbox-wrapper">
-                        <a href="#" className="close"></a>
+                        <a href="#top" className="close"></a>
                         <a href="#lightbox-image-9" className="arrow-left"></a>
                         <a href="#lightbox-image-11" className="arrow-right"></a>
                         <img src={ImgGallery10} alt="" />
@@ -182,7 +182,7 @@ export function GallerySection({title, ImgGallery1, ImgGallery2, ImgGallery3, Im
                     </div>
                     <div className="image-lightbox" id="lightbox-image-11">
                     <div className="image-lightbox-wrapper">
-                        <a href="#" className="close"></a>
+                        <a href="#top" className="close"></a>
                         <a href="#lightbox-image-10" className="arrow-left"></a>
                         <a href="#lightbox-image-12" className="arrow-right"></a>
                         <img src={ImgGallery11} alt="" />
@@ -191,7 +191,7 @@ export function GallerySection({title, ImgGallery1, ImgGallery2, ImgGallery3, Im
                     </div>
                     <div className="image-lightbox" id="lightbox-image-12">
                     <div className="image-lightbox-wrapper">
-                        <a href="#" className="close"></a>
+                        <a href="#top" className="close"></a>
                         <a href="#lightbox-image-11" className="arrow-left"></a>
                         <a href="#lightbox-image-1" className="arrow-right"></a>
                         <img src={ImgGallery12} alt="" />

@@ -4,9 +4,23 @@ import Navbar from "../../components/Navbar";
 import PraiaImg from "../../assets/3.jpg"
 import img1 from "../../assets/2018.jpg"
 import img2 from "../../assets/207.jpg"
+
 import Pet from "../../assets/2e.jpg"
 import Food from "../../assets/206.jpg"
 import Point from "../../assets/2012.jpg"
+
+import Pousada1 from "../../assets/p1.jpg"
+import Pousada2 from "../../assets/p2.jpg"
+import Pousada3 from "../../assets/p3.jpg"
+import Pousada4 from "../../assets/p4.jpg"
+import Pousada10 from "../../assets/p10.jpg"
+import Pousada20 from "../../assets/p20.jpg"
+import Pousada21 from "../../assets/p21.jpg"
+import Pousada22 from "../../assets/p22.jpg"
+import Pousada30 from "../../assets/p30.jpg"
+import Pousada32 from "../../assets/p32.jpg"
+import Pousada33 from "../../assets/p33.jpg"
+import Pousada34 from "../../assets/p34.jpg"
 
 import { Footer } from "../../components/Footer";
 import { Trip } from "../../components/Trip";
@@ -39,30 +53,30 @@ export function Pousada(){
             </div>
             <GallerySection
                 title={"Conheça todos os detalhes!"} 
-                ImgGallery1={img2} 
-                ImgGallery2={img2}
-                ImgGallery3={img2}
-                ImgGallery4={img2}
-                ImgGallery5={img2} 
-                ImgGallery6={img2}
-                ImgGallery7={img2} 
-                ImgGallery8={img2} 
-                ImgGallery9={img2} 
-                ImgGallery10={img2}
-                ImgGallery11={img2}
-                ImgGallery12={img2}
-                subtitle1={"img2"} 
-                subtitle2={"img2"} 
-                subtitle3={"img2"} 
-                subtitle4={"img2"} 
-                subtitle5={"img2"} 
-                subtitle6={"img2"} 
-                subtitle7={"img2"} 
-                subtitle8={"img2"} 
-                subtitle9={"img2"}
-                subtitle10={"img2"}
-                subtitle11={"img2"}
-                subtitle12={"img2"}
+                ImgGallery1={Pousada1} 
+                ImgGallery2={Pousada2}
+                ImgGallery3={Pousada3}
+                ImgGallery4={Pousada4}
+                ImgGallery5={Pousada10} 
+                ImgGallery6={Pousada20}
+                ImgGallery7={Pousada21} 
+                ImgGallery8={Pousada22} 
+                ImgGallery9={Pousada30} 
+                ImgGallery10={Pousada32}
+                ImgGallery11={Pousada33}
+                ImgGallery12={Pousada34}
+                subtitle1={"Piscina"} 
+                subtitle2={"Piscina"} 
+                subtitle3={"Área de lazer"} 
+                subtitle4={"Restaurante"} 
+                subtitle5={"Área de lazer"} 
+                subtitle6={"Apartamento Duplo"} 
+                subtitle7={"Apartamento Casal"} 
+                subtitle8={"Apartamento Triplo"} 
+                subtitle9={"Point beira mar"}
+                subtitle10={"Point beira mar"}
+                subtitle11={"Point beira mar"}
+                subtitle12={"Nossa praia"}
             />
             <Trip
                 title={"Você sabia?"}
