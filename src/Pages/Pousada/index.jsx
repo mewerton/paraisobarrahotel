@@ -67,17 +67,17 @@ export function Pousada(){
             <Trip
                 title={"Você sabia?"}
                 text ={"O diferencial que vai te conquistar!"}
-                titlecard1 ={"Pets"}
-                imgcard1 ={Pet}
-                textcard1 ={"Animais de pequeno porte são muito bem vindos em nosso estabelecimento, traga seu Pet e venha se divertir!"}
+                titlecard3 ={"Pets"}
+                imgcard3 ={Pet}
+                textcard3 ={"Animais de pequeno porte são muito bem vindos em nosso estabelecimento, traga seu Pet e venha se divertir!"}
 
-                titlecard2 ={"Comidas"}
-                imgcard2 ={Food}
-                textcard2 ={"Nosso café da manhã é um dos pontos mais comentados pelos hóspedes, tendo uma grande variedade de comidas tradicionais da região. "}
+                titlecard1 ={"Comidas"}
+                imgcard1 ={Food}
+                textcard1 ={"Nosso café da manhã é um dos pontos mais comentados pelos hóspedes, tendo uma grande variedade de comidas tradicionais da região. "}
                  
-                titlecard3={"Point"}
-                imgcard3 ={Point}
-                textcard3={"Temos uma churrasqueira disponível em nosso Point, dessa forma nossos hóspedes podem trazer seu churrasco de casa e curtir! "}
+                titlecard2={"Churrasco"}
+                imgcard2 ={Point}
+                textcard2={"Temos uma churrasqueira disponível em nosso Point, dessa forma nossos hóspedes podem trazer seu churrasco de casa e curtir! "}
             />
             
             <Footer/> 
