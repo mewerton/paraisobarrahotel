@@ -11,7 +11,7 @@ export function ContactForm(){
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('xxxxxxxxxx', 'xxxxxxxxxx', form.current, 'xxxxxxxxxx')
+      emailjs.sendForm('xxxxxxxxxxcc', 'xxxxxxxxxxcc', form.current, 'xxxxxxxxxxcc')
         .then((result) => {
             console.log(result.text);
             setDone(true)
