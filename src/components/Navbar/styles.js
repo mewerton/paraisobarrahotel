@@ -96,7 +96,7 @@ export const Container = styled.div`
         display: block;
         width: 100%;
         font-size: 1.2rem;
-        padding: 2rem 0;
+        padding: 1.5rem 0;
     }
 
     .nav-links:hover{
