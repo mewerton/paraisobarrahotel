@@ -37,6 +37,7 @@ export const Container = styled.div`
     padding-bottom: 1rem;
     font-size: 2rem;
     font-weight: bold;
+    text-align: start;
 }
 
 .image{

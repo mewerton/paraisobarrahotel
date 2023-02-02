@@ -3,6 +3,7 @@ import { Hero } from "../../components/Hero";
 import Navbar from "../../components/Navbar";
 import PraiaImg from "../../assets/213.jpg"
 import { Footer } from "../../components/Footer";
+import { Maps } from "../../components/Maps";
 
 export function Localizacao(){
     return(
@@ -16,7 +17,11 @@ export function Localizacao(){
                 btnClass={"hide"}
                 urlb="#"
                 
-            />       
+            />
+            <div className="map">
+                
+            </div>       
+            <Maps/>
             <Footer/>
         </Container>
     )
