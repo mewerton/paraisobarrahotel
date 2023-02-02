@@ -23,7 +23,7 @@ export function ContactForm(){
     return(
         <Container>
             <div className="from-container">
-                <h1>Entre em contato agora!</h1>
+                <h2>Você também pode enviar uma mensagem através do nosso site, preencha os campos abaixo:</h2>
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="user_name" placeholder="Nome"/>
                     <input type="email" name="user_email" placeholder="E-mail"/>

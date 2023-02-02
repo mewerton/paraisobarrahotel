@@ -6,16 +6,15 @@ export function Footer(){
             <div className="footer">
                 <div className="top">  
                     <div className="hotel">
-                        
-                     
+
                     <div>
-                        <a href="/">
+                        <a href="https://www.facebook.com/paraisobarrahotel" target="_blank">
                             <i className="fa-brands fa-facebook-square"></i>
                         </a>
-                        <a href="/">
+                        <a href="https://www.instagram.com/paraisobarrahotel/" target="_blank">
                             <i className="fa-brands fa-instagram-square"></i>
                         </a>
-                        <a href="/">
+                        <a href="https://api.whatsapp.com/message/UUVTF2MYCIWYF1?autoload=1&app_absent=0" target="_blank">
                             <i className="fa-brands fa-whatsapp-square"></i>
                         </a>
                     </div>
@@ -23,17 +22,16 @@ export function Footer(){
                     <p>Contato: (82) 98876 0277</p>
                     <p>CNPJ: 09.608.621/0005-50</p>
                     </div> 
-                    <div className="pousada">
-                        
-                     
+
+                    <div className="pousada"> 
                     <div>
-                        <a href="/">
+                        <a href="https://www.facebook.com/PousadaParaisodaBarra" target="_blank">
                             <i className="fa-brands fa-facebook-square"></i>
                         </a>
-                        <a href="/">
+                        <a href="https://www.instagram.com/pousadaparaisodabarra/" target="_blank">
                             <i className="fa-brands fa-instagram-square"></i>
                         </a>
-                        <a href="/">
+                        <a href="https://api.whatsapp.com/send?phone=5582987537999&text=Ol%C3%A1%21." target="_blank">
                             <i className="fa-brands fa-whatsapp-square"></i>
                         </a>
                     </div>
@@ -43,7 +41,9 @@ export function Footer(){
                     
                     </div>   
                 </div>
-                
+            <a href="https://mewerton.com.br/" target="_blank">
+            <label htmlFor="https://mewerton.com.br/" color="white">Desonvolvido por Mewerton Melo</label>
+            </a>  
             </div>
 
         </Container>

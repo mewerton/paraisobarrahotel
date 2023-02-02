@@ -56,6 +56,23 @@ export const Container = styled.div`
         align-items: flex-start;
     }
 
+    a{
+        width: 300px;
+    }
+    a label {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: -2rem;
+        font-size: 14px;
+        color: gray ;
+        cursor: pointer;
+        
+        border-radius: 4px;
+       
+        
+    }
     @media screen and (max-width: 751px){
 
         .top{
@@ -90,32 +107,47 @@ export const Container = styled.div`
     @media screen and (max-width: 555px){
 
         .footer{
-        padding: 8rem 2rem;
+             padding: 8rem 2rem;
        
         
-    }
+        }
 
         .footer h1{
        
-        font-size: 18px;
-        margin-top: 0.2rem;
+            font-size: 18px;
+            margin-top: 0.2rem;
+            
+            padding: 0.0rem 0 0.0rem 0;
         
-        padding: 0.0rem 0 0.0rem 0;
-      
+        }
+
+        .footer p{
+            font-size: 0.8rem;
+            
+            padding: 0.2rem 0 0.4rem 0;
+        
     }
 
-    .footer p{
-        font-size: 0.8rem;
-        
-        padding: 0.2rem 0 0.4rem 0;
-        
-    }
-
-    .top{
+        .top{
             
             width: 100%;
             font-size: 2rem;
           
+        }
+
+        a label {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-top: 3rem;
+            margin-bottom: -7rem;
+            font-size: 14px;
+            color: gray ;
+            cursor: pointer;
+            
+            border-radius: 4px;
+       
+        
         }
 
     }

@@ -52,7 +52,7 @@ export const Container = styled.div`
 
     @media screen and (max-width: 850px){
         .from-container{
-        margin: 4rem 2rem;
+        margin: 4rem 1rem;
 
         }
 
