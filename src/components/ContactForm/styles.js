@@ -48,6 +48,9 @@ export const Container = styled.div`
 
     .from-container h2{
         margin-top: 2rem;
+        font-size: 1.5rem;
+        
+        
     }
 
     @media screen and (max-width: 850px){

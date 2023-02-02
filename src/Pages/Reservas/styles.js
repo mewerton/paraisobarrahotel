@@ -6,13 +6,13 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6rem;
+    gap: 10rem;
     margin-top: 2rem;
     margin-bottom: -1rem;
     transition: 0.2s ease-in-out;
 }
 .logo img{
-    width: 200px;
+    width: 300px;
    
 }
 
@@ -20,7 +20,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6rem;
+    gap: 15rem;
     margin-top: 0.8rem;
 
 }
@@ -48,7 +48,7 @@ export const Container = styled.div`
 }
 
 
-@media screen and (max-width: 550px){
+@media screen and (max-width: 850px){
     .logo{
 
     gap: 1rem;
