@@ -1,9 +1,9 @@
 import { Container } from "./styles";
+import { GeneralData } from "../GenaralData";
 import hotelImg1 from "../../assets/1.jpg"
 import hotelImg2 from "../../assets/2.jpg"
 import pousadaImg1 from "../../assets/3.jpg"
 import pousadaImg2 from "../../assets/4.jpg"
-import { GeneralData } from "../GenaralData";
 
 
 export function General(){

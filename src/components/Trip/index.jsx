@@ -1,9 +1,5 @@
 import { Container } from "./styles";
 import { TripData } from "../TripData";
-import Tripimg1 from "../../assets/1c.jpg"
-import Tripimg2 from "../../assets/2012.jpg"
-import Tripimg3 from "../../assets/20 (13).jpg"
-
 
 export function Trip({title, text, imgcard1, imgcard2, imgcard3, titlecard1, titlecard2, titlecard3, textcard1, textcard2, textcard3 }){
     return(
