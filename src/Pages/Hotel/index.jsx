@@ -1,6 +1,12 @@
 import { Container } from "./styles";
-import { Hero } from "../../components/Hero";
 import Navbar from "../../components/Navbar";
+import { Hero } from "../../components/Hero";
+import { Footer } from "../../components/Footer";
+import { Trip } from "../../components/Trip";
+import { GeneralData } from "../../components/GenaralData";
+import { GallerySection } from "../../components/GallerySection";
+import { Attributes } from "../../components/Attributes";
+import { BackButton } from "../../components/BackButton";
 
 import PraiaImg from "../../assets/1.jpg"
 import img1 from "../../assets/h2.jpg"
@@ -25,13 +31,6 @@ import Hotel62 from "../../assets/h62.jpg"
 
 
 
-import { Footer } from "../../components/Footer";
-import { Trip } from "../../components/Trip";
-import { General } from "../../components/General";
-import { GeneralData } from "../../components/GenaralData";
-import { GallerySection } from "../../components/GallerySection";
-import { Attributes } from "../../components/Attributes";
-import { BackButton } from "../../components/BackButton";
 
 export function Hotel(){
     return(

@@ -1,7 +1,6 @@
 import { Container } from "./styles";
 
-import { MdOutlineGarage, MdPool, MdRestaurantMenu, MdWifi, MdBeachAccess, MdWorkOutline, MdOutlineWatchLater, MdOutlineDirectionsCarFilled, MdPets, MdOutlineTour, MdOutlineBalcony } from "react-icons/md"
-// import { IoSnowOutline } from "react-icons/io"
+import { MdOutlineGarage, MdPool, MdRestaurantMenu, MdWifi, MdBeachAccess, MdWorkOutline, MdOutlineWatchLater, MdOutlineDirectionsCarFilled, MdPets, MdOutlineBalcony } from "react-icons/md"
 import { GiBarbecue, GiGunshot, GiSnowflake1 } from "react-icons/gi"
 import { BiFridge } from "react-icons/bi"
 import { RiSafe2Line, RiShip2Line} from "react-icons/ri"

@@ -1,6 +1,13 @@
 import { Container } from "./styles";
-import { Hero } from "../../components/Hero";
 import Navbar from "../../components/Navbar";
+import { Hero } from "../../components/Hero";
+import { Footer } from "../../components/Footer";
+import { Trip } from "../../components/Trip";
+import { GeneralData } from "../../components/GenaralData";
+import { GallerySection } from "../../components/GallerySection";
+import { Attributes } from "../../components/Attributes";
+import { BackButton } from "../../components/BackButton";
+
 import PraiaImg from "../../assets/3.jpg"
 import img1 from "../../assets/2018.jpg"
 import img2 from "../../assets/207.jpg"
@@ -22,13 +29,6 @@ import Pousada32 from "../../assets/p32.jpg"
 import Pousada33 from "../../assets/p33.jpg"
 import Pousada34 from "../../assets/p34.jpg"
 
-import { Footer } from "../../components/Footer";
-import { Trip } from "../../components/Trip";
-import { General } from "../../components/General";
-import { GeneralData } from "../../components/GenaralData";
-import { GallerySection } from "../../components/GallerySection";
-import { Attributes } from "../../components/Attributes";
-import { BackButton } from "../../components/BackButton";
 
 export function Pousada(){
     return(

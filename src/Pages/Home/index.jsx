@@ -1,14 +1,15 @@
-import { Hero } from "../../components/Hero";
-import Navbar from "../../components/Navbar";
 import { Container } from "./styles";
-import Image from "../../assets/capa2.jpg"
-import ImageCard1 from "../../assets/211.jpg"
-import ImageCard2 from "../../assets/20912.jpg"
-import ImageCard3 from "../../assets/246632.jpg"
+import Navbar from "../../components/Navbar";
+import { Hero } from "../../components/Hero";
 import { General } from "../../components/General";
 import { Trip } from "../../components/Trip";
 import { Footer } from "../../components/Footer";
 import { BackButton } from "../../components/BackButton";
+
+import Image from "../../assets/capa2.jpg"
+import ImageCard1 from "../../assets/211.jpg"
+import ImageCard2 from "../../assets/20912.jpg"
+import ImageCard3 from "../../assets/246632.jpg"
 
 
 export function Home(){

@@ -1,5 +1,5 @@
-import Navbar from "../../components/Navbar";
 import { Container } from "./styles";
+import Navbar from "../../components/Navbar";
 import { Hero } from "../../components/Hero";
 import { Footer } from "../../components/Footer";
 import { GalleryLeft } from "../../components/GalleryLeft";

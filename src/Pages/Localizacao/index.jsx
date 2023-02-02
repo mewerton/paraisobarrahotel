@@ -1,9 +1,9 @@
 import { Container } from "./styles";
-import { Hero } from "../../components/Hero";
 import Navbar from "../../components/Navbar";
-import PraiaImg from "../../assets/213.jpg"
+import { Hero } from "../../components/Hero";
 import { Footer } from "../../components/Footer";
 import { Maps } from "../../components/Maps";
+import PraiaImg from "../../assets/213.jpg"
 
 export function Localizacao(){
     return(

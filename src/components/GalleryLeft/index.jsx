@@ -1,5 +1,4 @@
 import { Container } from "./styles";
-import Barra1 from "../../assets/p34.jpg"
 
 export function GalleryLeft({title, text, anchor, image, anchorA, idClass, idBox }){
     

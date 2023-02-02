@@ -1,9 +1,9 @@
 import { Container } from "./styles";
+import Navbar from "../../components/Navbar";
 import { Hero } from "../../components/Hero";
 import { Footer } from "../../components/Footer";
 import { ContactForm } from "../../components/ContactForm";
 
-import Navbar from "../../components/Navbar";
 import Recep from "../../assets/recep.jpg"
 import LogoP from "../../assets/logohotel.png"
 import LogoH from "../../assets/logopousada.png"
