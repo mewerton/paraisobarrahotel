@@ -46,6 +46,10 @@ export const Container = styled.div`
         transition: 0.2s ease-in-out;
     }
 
+    .from-container h2{
+        margin-top: 2rem;
+    }
+
     @media screen and (max-width: 850px){
         .from-container{
         margin: 4rem 2rem;

@@ -7,6 +7,7 @@ export const Container = styled.div`
         margin: 4rem 6rem;
         color: ${({theme}) => theme.COLORS.BLACK};
         
+        
 
     }
 
@@ -20,6 +21,7 @@ export const Container = styled.div`
         margin-top: 3rem;
         display: flex;
         justify-content: space-between;
+        
     }
  
      .t-card{
@@ -59,6 +61,7 @@ export const Container = styled.div`
         padding: 0.9rem 0 0.2rem 0;
         text-align: center;
         font-weight: bold;
+        
     } 
 
     @media screen and (max-width: 850px){

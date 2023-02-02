@@ -38,7 +38,7 @@ export function Home(){
 
                 titlecard2 ={"Comidas Típicas"}
                 imgcard2 ={ImageCard2}
-                textcard2 ={"Deliciosos pratos com frutos do mar que vão te deixar com água na boca, nossa tradicional peixada ao molho de camarão vai te surpreender."}
+                textcard2 ={"Deliciosos pratos com frutos do mar que vão te deixar com água na boca, nossa peixada ao molho de camarão vai te surpreender."}
                  
                 titlecard3={"Passeios"}
                 imgcard3 ={ImageCard3}

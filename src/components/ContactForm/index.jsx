@@ -1,16 +1,36 @@
+import { useRef, useState } from "react";
 import { Container } from "./styles";
+import emailjs from '@emailjs/browser';
 
 export function ContactForm(){
+
+    const form = useRef();
+
+    const [done, setDone] = useState(false)
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_v1gn8he', 'template_p23shye', form.current, 'OizvH9m7qPFH5KDKp')
+        .then((result) => {
+            console.log(result.text);
+            setDone(true)
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
     return(
         <Container>
             <div className="from-container">
                 <h1>Entre em contato agora!</h1>
-                <form action="">
-                    <input type="text" placeholder="Nome"/>
-                    <input type="text" placeholder="E-mail"/>
-                    <input type="text" placeholder="Whatsapp"/>
-                    <textarea type="text" placeholder="Mensagem" rows="4"/>
-                    <button>Enviar</button>
+                <form ref={form} onSubmit={sendEmail}>
+                    <input type="text" name="user_name" placeholder="Nome"/>
+                    <input type="email" name="user_email" placeholder="E-mail"/>
+                    <input type="text" name="user_tel" placeholder="Whatsapp"/>
+                    <textarea name="message" type="text" placeholder="Mensagem" rows="4"/>
+                    <button type="submit">Enviar</button>
+                    <h2>{done && "Mensagem enviada! Obrigado!"}</h2>
                 </form>
             </div>
 
