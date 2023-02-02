@@ -18,7 +18,7 @@ img {
   
   width: 100%;
   margin: auto;
-  padding: 0rem 6rem;
+  padding: 0rem 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: 1em;
@@ -175,6 +175,22 @@ h1{
     background: transparent;
 }
 
+.gallery-left{
+  display: flex;
+  padding: 0rem 6rem 1rem 4rem;
+  align-items: center;
+  margin-top: -4rem;
+}
+
+.gallery-left h3{
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.gallery-left p{
+  text-align: start;
+} 
+
 @media screen and (max-width: 850px){
   
   .gallery-wrapper {
@@ -182,15 +198,37 @@ h1{
   padding: 0rem 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  grid-gap: 1em;
+  grid-gap: 1rem;
+}
+
+.gallery-left{
+  padding: 0rem 2rem 0 0;
+  
 }
 
 }
 
 @media screen and (max-width: 550px){
-  .image-wrapper a img{
-    height: 350px;
+
+  .gallery-left{
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: -6rem;
+    padding: 0rem 2rem 1rem 2rem;
   }
+
+  .image-wrapper a img{
+    
+    height: 300px;
+  }
+  
+  .gallery-wrapper{
+    width: 100%;
+    
+    padding: 0.0rem;
+  }
+
+
 }
 
 

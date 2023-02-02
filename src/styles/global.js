@@ -33,7 +33,14 @@ h1{
 p{
     text-align: center;
 }
-
+h2{
+    text-align: center;
+}
+h5{
+    text-align: center;
+    font-size: 14px;
+    color: ${({theme}) => theme.COLORS.GRAY_300};
+}
 img{
     object-fit: cover;
 }

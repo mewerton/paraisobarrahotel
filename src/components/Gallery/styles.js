@@ -173,5 +173,10 @@ h1{
     background: transparent;
 }
 
+@media screen and (max-width: 550px){
+  .image-wrapper a img{
+    height: 350px;
+  }
+}
 
 `
