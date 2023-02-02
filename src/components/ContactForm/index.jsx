@@ -4,7 +4,7 @@ export function ContactForm(){
     return(
         <Container>
             <div className="from-container">
-                <h1>Ente em contato agora!</h1>
+                <h1>Entre em contato agora!</h1>
                 <form action="">
                     <input type="text" placeholder="Nome"/>
                     <input type="text" placeholder="E-mail"/>
