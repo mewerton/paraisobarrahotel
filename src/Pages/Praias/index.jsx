@@ -41,7 +41,7 @@ export function Praias(){
             {/* Primeira Praia */}
 
             <GalleryLeft
-            title={"Carro Quebrado - Barra de Sto Antônio"}
+            title={"Barra de Santo Antônio - Carro Quebrado"}
             text={"Você sabia que a praia de Carro Quebrado foi eleita a 6ª praia deserta mais bonita do Brasil? Mar, areia, céu, pedras, e ninguém por perto. Assim é a Praia de Carro Quebrado, o segredo mais bem guardado do litoral norte alagoano."}
             image={Carro1}
             anchor={"top"}
@@ -93,7 +93,7 @@ export function Praias(){
             />
             {/* Terceira Praia */}
             <GalleryLeft
-            title={"Maragogi e suas praias"}
+            title={"Maragogi"}
             text={"Conhecida como “Caribe brasileiro”, devido suas belas piscinas naturais, praias paradisíacas e vastos coqueirais. Maragogi é uma das 10 maiores e mais visitadas unidades de conservação marinha do Brasil. Um destino único, de águas mornas, calmas e cristalinas, ideal para quem busca tranquilidade."}
             image={Mara1}
             anchor={"top6"}
@@ -102,7 +102,7 @@ export function Praias(){
             idBox={"g"}          
             />
             <GalleryRight
-            text={"Maragogi tem uma das maiores barreiras de corais do mundo, onde piscinas naturais se formam a 6km da costa, na maré baixa, e tem acesso por catamarãs."}
+            text={"Maragogi tem uma das maiores barreiras de corais do mundo, onde piscinas naturais se formam a 6km da costa, na maré baixa, e tem acesso por catamarãs. Suas praias são: Praia de São Bento, Praia de Camacho, Praia de Maragogi, Praia de Burgalhau, Praia de Barra Grande, Praia de Antunes, Praia de Xáreu, Praia de Ponta de Mangue, Praia de Dourado, Praia de Peroba."}
             image={Mara2}
             anchor={"top7"}
             anchorA={"#top7"} 

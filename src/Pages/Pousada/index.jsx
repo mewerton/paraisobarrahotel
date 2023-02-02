@@ -48,7 +48,7 @@ export function Pousada(){
             <GeneralData
                 className={"first-general"}
                 heading={"Pousada Paraíso da Barra"}
-                text={"A Pousada conta com o fácil acesso à praia, onde possuímos uma area privativa beira mar para todos os nossos hóspedes, não só da pousada quanto do hotel. Possui 16 apartamentos entre duplos e triplos, todos aconchegantes com o conforto que você merece."}
+                text={"A Pousada fica ao lado do nosso Hotel e conta com o fácil acesso à praia, onde possuímos uma area privativa beira mar para todos os nossos hóspedes, não só da pousada quanto do hotel. Possui 16 apartamentos entre duplos e triplos, todos aconchegantes com o conforto que você merece. "}
                 img1={img1}
                 img2={img2}
             />
