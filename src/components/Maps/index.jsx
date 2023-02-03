@@ -5,7 +5,7 @@ export function Maps(){
 
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: "AIzaSyCyJGp1MeKAzl1FgXFzXiK-vD3z8c0GC-Q"
+        googleMapsApiKey: "xxxxxxxxxxxxcc"
       })
 
     const position = {
