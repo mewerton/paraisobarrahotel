@@ -1,5 +1,3 @@
-# paraisobarrahotel
- 
 <p align="center">
   <h1 align="center"><a href="#">Website - Paraíso Barra Hotel</a></h1>
 </p>
