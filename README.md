@@ -3,7 +3,7 @@
 </p>
 
 <h4 align="center"> 
-	 Status: Finalizado
+	 Status: Finalizando
 </h4>
 <p align="center">
   <h4 align="center"><a href="https://paraisobarrahotel.com.br">https://paraisobarrahotel.com.br</a></h4>
