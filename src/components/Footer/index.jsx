@@ -18,7 +18,7 @@ export function Footer(){
                             <i className="fa-brands fa-whatsapp-square"></i>
                         </a>
                     </div>
-                    <h1>Parasíso Barra Hotel</h1> 
+                    <h1>Paraíso Barra Hotel</h1> 
                     <p>Contato: (82) 98876 0277</p>
                     <p>CNPJ: 09.608.621/0005-50</p>
                     </div> 
@@ -37,7 +37,7 @@ export function Footer(){
                     </div>
                     <h1>Pousada Paraíso da Barra</h1>
                     <p>Contato: (82) 98753 7999</p>
-                    <p>CNPJ: 309.608.621/0004-70</p>
+                    <p>CNPJ: 09.608.621/0004-70</p>
                     
                     </div>   
                 </div>
