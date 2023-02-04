@@ -42,7 +42,7 @@ export function Footer(){
                     </div>   
                 </div>
             <a href="https://mewerton.com.br/" target="_blank">
-            <label htmlFor="https://mewerton.com.br/" color="white">Desonvolvido por Mewerton Melo</label>
+            <label htmlFor="https://mewerton.com.br/" color="white">Desenvolvido por Mewerton Melo</label>
             </a>  
             </div>
 
