@@ -27,6 +27,7 @@ Neste projeto foram abordados os seguintes temas:
 - [Vite](https://vitejs.dev/)
 - [Styled Components](https://styled-components.com/)
 - [React Router Dom](https://react-icons.github.io/react-icons/)
+- [Framer Motion](https://www.npmjs.com/package/framer-motion)
 - [React Google Maps](https://www.npmjs.com/package/@react-google-maps/api)
 - [React Icons](https://react-icons.github.io/react-icons)
 
